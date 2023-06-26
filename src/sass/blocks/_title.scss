@@ -1,0 +1,30 @@
+.title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    &_fz105 {
+        font-size: 105px;
+        line-height: 105px;
+        color: #A7B1B1;
+    }
+    &_fz160 {
+        font-size: 160px;
+        line-height: 160px;
+    }
+    &_fz84 {
+        font-size: 84px;
+        line-height: 84px;
+        text-align: center;
+        color: $main-color;
+    }
+    &_fz35 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    &_fz30 {
+        font-size: 30px;
+        line-height: 30px;
+        color: $main-color;
+    }
+}

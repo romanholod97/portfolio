@@ -1,0 +1,43 @@
+@import 'libs/fonts';
+@import 'libs/animate.min';
+
+@import 'base/variables';
+
+body {
+    background-color: #0C0C0C;
+    font-family: 'Nexa';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+@import 'blocks/menu';
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/skill';
+@import 'blocks/portfolio';
+@import 'blocks/contacts';
+@import 'blocks/pageup';
+@import 'blocks/media';

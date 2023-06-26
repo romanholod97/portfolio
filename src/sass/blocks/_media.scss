@@ -1,0 +1,436 @@
+@media (max-width: 1399px) {
+	.title {
+		&_fz105 {
+			font-size: 100px;
+			line-height: 100px;
+		}
+		&_fz160 {
+			font-size: 140px;
+			line-height: 140px;
+		}
+		&_fz84 {
+			font-size: 64px;
+			line-height: 64px;
+		}
+		&_fz35{
+			font-size: 32px;
+		}
+		&_fz30{
+			font-size: 28px;
+		}
+	}
+	.promo {
+		padding-top: 130px;
+		&__title {
+			width: 710px;
+		} 
+	}
+	.about {
+		padding-top: 80px;
+		&__wrapper {
+			margin-top: 50px;
+			grid-template-rows: 600px;
+		}
+		&__img {
+			width: 100%;
+			height: 575px;
+		}
+		&__descr {
+			font-size: 20px;
+			line-height: 24px;
+		}
+		&__content {
+			row-gap: 40px;
+			&-subtitle {
+				font-size: 24px;
+			}
+		}
+	}
+	.skill {
+		padding-top: 80px;
+		&__ratings {
+			margin-top: 80px;
+		}
+	}
+	.portfolio {
+		padding: 80px 0;
+	}
+	.contacts {
+		padding: 80px 0;
+	}
+}
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.title {
+		&_fz105 {
+			font-size: 80px;
+			line-height: 80px;
+		}
+		&_fz160 {
+			font-size: 120px;
+			line-height: 120px;
+		}
+		&_fz84 {
+			font-size: 64px;
+			line-height: 64px;
+		}
+		&_fz35{
+			font-size: 28px;
+		}
+		&_fz30{
+			font-size: 26px;
+		}
+	}
+	.promo {
+		&__title {
+			width: 610px;
+			&::before {
+				bottom: 20px;
+			}
+		} 
+	}
+	.about {
+		padding-top: 60px;
+		&__wrapper {
+			grid-template-columns: 400px 510px;
+		}
+		&__information {
+			width: 100%;
+		}
+		&__descr {
+			font-size: 18px;
+			line-height: 22px;
+		}
+		&__content {
+			margin-top: 20px;
+			row-gap: 20px;
+		}
+	}
+	.skill {
+		padding-top: 60px;
+		&__ratings {
+			margin-top: 60px;
+			grid-template-columns: repeat(3, 306px);
+		}
+	}
+	.portfolio {
+		padding: 60px 0;
+		&__block {
+			width: 300px;
+		}
+	}
+	.contacts {
+		padding: 60px 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.title {
+		&_fz105 {
+			font-size: 70px;
+			line-height: 70px;
+		}
+		&_fz160 {
+			font-size: 100px;
+			line-height: 100px;
+		}
+		&_fz84 {
+			font-size: 60px;
+			line-height: 60px;
+		}
+		&_fz35 {
+			font-size: 26px;
+			line-height: 30px;
+		}
+		&_fz30 {
+			font-size: 24px;
+			line-height: 26px;
+		}
+	}
+	.promo {
+		padding-top: 220px;
+		&__title {
+			width: 515px;
+			&::before {
+				bottom: 15px;
+			}
+		} 
+		&__wrap {
+			padding-left: 5px;
+		}
+	}
+	.about {
+		&__wrapper {
+			grid-template-columns: 300px 390px;
+		}
+		&__img {
+			height: 100%;
+			margin: 0;
+			img {
+				top: 0;
+				left: 0;
+				border: none;
+			}
+		}
+		&__descr {
+			margin-top: 12px;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		&__content {
+			grid-template-columns: repeat(2, 175px);
+			&-title {
+				font-size: 22px;
+			}
+			&-subtitle {
+				font-size: 20px;
+			}
+		}
+	}
+	.skill {
+		&__ratings {
+			grid-template-columns: repeat(2, 340px);
+		}
+	}
+	.portfolio {
+		&__block {
+			width: 340px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.title {
+		&_fz105 {
+			font-size: 60px;
+			line-height: 60px;
+		}
+		&_fz160 {
+			font-size: 90px;
+			line-height: 90px;
+		}
+		&_fz84 {
+			font-size: 54px;
+			line-height: 54px;
+		}
+		&_fz35 {
+			font-size: 25px;
+			line-height: 26px;
+		}
+		&_fz30 {
+			font-size: 23px;
+			line-height: 24px;
+		}
+	}
+	.promo {
+		&__title {
+			width: 460px;
+			&::before {
+				width: 20px;
+				height: 20px;
+				bottom: 15px;
+			}
+		} 
+	}
+	.about {
+		padding-top: 40px;
+		&__wrapper {
+			margin-top: 40px;
+			grid-template-columns: 520px;
+			grid-template-rows: auto;
+			justify-content: center;
+		}
+		&__img {
+			margin: 0;
+			height: 500px;
+			img {
+				border: none;
+				top: 0;
+				left: 0;
+			}
+		}
+		&__information {
+			margin-top: 40px;
+		}
+		&__subtitle {
+			text-align: center;
+		}
+		&__descr {
+			line-height: 26px;
+		}
+		&__content {
+			grid-template-columns: repeat(2, 250px);
+		}
+	}
+	.skill {
+		padding-top: 40px;
+		&__wrapper {
+			margin-top: 40px;
+			gap: 10px;
+		}
+		&__item {
+			width: 255px;
+		}
+		&__ratings {
+			margin-top: 40px;
+			grid-template-columns: repeat(2, 255px);
+			&-item {
+				grid-template-columns: 205px 50px;
+			}
+		}
+	}
+	.portfolio {
+		padding: 60px 0;
+		&__block {
+			width: 250px;
+		}
+		&__content{
+			&::after {
+				display: none;
+			}
+			&-item {
+				display: none;
+			}
+		}
+	}
+	.contacts {
+		&__link {
+			&:hover {
+				background-color: unset;
+			}
+		}
+	}
+	.pageup {
+		right: 10px;
+		bottom: 10px;
+		width: 25px;
+		height: 25px;
+		&:hover {
+			opacity: unset;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0 8px;
+	}
+	.menu {
+		&__block {
+			width: 250px;
+		}
+	}
+	.title {
+		&_fz105 {
+			font-size: 40px;
+			line-height: 40px;
+		}
+		&_fz160 {
+			font-size: 55px;
+			line-height: 60px;
+		}
+		&_fz84 {
+			font-size: 35px;
+			line-height: 35px;
+		}
+		&_fz35 {
+			font-size: 22px;
+			line-height: 22px;
+		}
+		&_fz30 {
+			font-size: 17px;
+			line-height: 17px;
+		}
+	}
+	.promo {
+		.logo {
+			top: 25px;
+			left: 20px;
+			height: 16px;
+		}
+		.hamburger {
+			right: 20px;
+		}
+		&__title {
+			width: 290px;
+			&::before {
+				width: 10px;
+				height: 10px;
+				bottom: 15px;
+				right: -5px;
+			}
+		} 
+		&__wrap {
+			justify-content: unset;
+			column-gap: 20px;
+		}
+	}
+	.about {
+		&__wrapper {
+			grid-template-columns: 304px;
+		}
+		&__img {
+			height: 400px;
+		}
+		&__information {
+			margin-top: 40px;
+		}
+		&__subtitle {
+			text-align: center;
+		}
+		&__content {
+			grid-template-columns: repeat(2, 142px);
+			&-subtitle {
+				font-size: 20px;
+			}
+		}
+	}
+	.skill {
+		&__wrapper {
+			padding: 0;
+			row-gap: 20px;
+		}
+		&__item {
+			width: 300px;
+		}
+		&-descr {
+			font-size: 16px;
+			line-height: 16px;   
+		}
+		&__ratings {
+			grid-template-columns: 300px;
+			grid-template-rows: minmax(50px, auto);
+			grid-auto-rows: minmax(50px, auto);
+			justify-content: center;
+			row-gap: 30px;
+			&-item {
+				grid-template-columns: 230px 50px;
+			}
+			&-counter {
+				align-self: unset;
+				font-size: 16px;
+				line-height: 16px;
+			}
+		}
+	}
+	.portfolio {
+		padding: 40px 0;
+		&__wrapper {
+			margin-top: 40px;
+			justify-content: center;
+			column-gap: unset;
+		}
+		&__block {
+			width: 300px;
+		}
+	}
+}

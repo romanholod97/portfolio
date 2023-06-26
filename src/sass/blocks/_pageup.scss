@@ -1,0 +1,15 @@
+.pageup {
+	display: none;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	transition: all 0.6s;
+	img {
+			width: 100%;
+	}
+	&:hover {
+		opacity: 0.6;
+	}
+}
